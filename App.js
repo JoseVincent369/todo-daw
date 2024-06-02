@@ -5,6 +5,7 @@ import { View, Text, Image, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator, DrawerContentScrollView, DrawerItemList, DrawerItem } from '@react-navigation/drawer';
 import { TodoList } from './src/TodoList';
+import 'react-native-gesture-handler';
 
 const Drawer = createDrawerNavigator();
 
